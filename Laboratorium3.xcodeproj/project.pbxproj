@@ -14,6 +14,7 @@
 		A82FC3222ADDCA5300DEE7EE /* Laboratorium3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FC3212ADDCA5300DEE7EE /* Laboratorium3Tests.swift */; };
 		A82FC32C2ADDCA5300DEE7EE /* Laboratorium3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FC32B2ADDCA5300DEE7EE /* Laboratorium3UITests.swift */; };
 		A82FC32E2ADDCA5300DEE7EE /* Laboratorium3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FC32D2ADDCA5300DEE7EE /* Laboratorium3UITestsLaunchTests.swift */; };
+		A82FC33B2ADDCB9D00DEE7EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FC33A2ADDCB9D00DEE7EE /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A82FC3272ADDCA5300DEE7EE /* Laboratorium3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorium3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82FC32B2ADDCA5300DEE7EE /* Laboratorium3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratorium3UITests.swift; sourceTree = "<group>"; };
 		A82FC32D2ADDCA5300DEE7EE /* Laboratorium3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laboratorium3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A82FC33A2ADDCB9D00DEE7EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A82FC3122ADDCA5200DEE7EE /* ContentView.swift */,
 				A82FC3142ADDCA5300DEE7EE /* Assets.xcassets */,
 				A82FC3162ADDCA5300DEE7EE /* Preview Content */,
+				A82FC33A2ADDCB9D00DEE7EE /* CardView.swift */,
 			);
 			path = Laboratorium3;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82FC3132ADDCA5200DEE7EE /* ContentView.swift in Sources */,
+				A82FC33B2ADDCB9D00DEE7EE /* CardView.swift in Sources */,
 				A82FC3112ADDCA5200DEE7EE /* Laboratorium3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
