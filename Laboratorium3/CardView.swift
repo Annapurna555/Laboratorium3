@@ -11,17 +11,7 @@ struct CardView: View {
     @State var hiddenFlag: Bool = false
     @State var emoji: String
     var body: some View {
-//        Text(emoji)
-//            .background(RoundedRectangle(cornerRadius: 12)
-//                .frame(width: 100, height: 100, alignment: .center)
-//                .border(Color.blue, width: 2)
-//                .background(hiddenFlag ? Color.blue : Color.white))
-//
-//            .font(.largeTitle)
-//            .opacity(hiddenFlag ? 0.1 : 1)
-//            .onTapGesture {
-//                self.hiddenFlag = !self.hiddenFlag
-        
+
         ZStack{
             Group{
                 RoundedRectangle(cornerRadius: 12)
@@ -31,7 +21,6 @@ struct CardView: View {
                 .fill(Color.blue)
                 .opacity(hiddenFlag ? 0 : 1)
             }
-//                .frame(width: 100, height: 100)
             .onTapGesture {
                 self.hiddenFlag = !self.hiddenFlag
             }
